@@ -13,6 +13,5 @@ public class Ejercicio1 {
         } else {
             System.out.println("Es un numero impar");
         }
-
     }
 }
