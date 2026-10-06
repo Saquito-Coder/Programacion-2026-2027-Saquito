@@ -6,23 +6,25 @@ public class Ejercicio6 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un caracter");
-        String caracter = scanner.nextLine();
+        char caracter = scanner.nextLine().charAt(0);
+    //Creo un scanner y leo un char
         switch (caracter){
-            case "A":
+            case 'A':
                 System.out.println("Es la primera vocal A");
                 break;
-            case "E":
+            case 'E':
                 System.out.println("Es la segunda vocal E");
                 break;
-            case "I":
+            case 'I':
                 System.out.println("Es la tercera vocal I");
                 break;
-            case "O":
+            case 'O':
                 System.out.println("Es la cuarta vocal O");
                 break;
-            case "U":
+            case 'U':
                 System.out.println("Es la quinta vocal U");
                 break;
         }
+    //Creo un caso para cada vocal como me pide el ejercicio y doy la respuesta
     }
 }

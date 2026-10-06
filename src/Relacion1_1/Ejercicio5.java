@@ -12,7 +12,7 @@ public class Ejercicio5 {
         int n4 = scanner.nextInt();
         int media = (n1 + n2 + n3 + n4) / 4;
         System.out.println("La media es de" + media);
-
+    //Creo un scanner y lee 4 numeros y hago el precalculo de la media
         if (n1 > media) {
             System.out.println(n1 + "es mayor a la media");
         }
@@ -25,5 +25,6 @@ public class Ejercicio5 {
         if (n4 > media) {
             System.out.println(n4 + "es mayor a la media");
         }
+    //Compruebo los datos contra la media y doy el resultado por pantalla
     }
 }

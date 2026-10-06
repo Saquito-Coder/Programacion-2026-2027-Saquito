@@ -5,13 +5,16 @@ import java.util.Scanner;
 public class Ejercicio1 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //Creo un Scanner
         System.out.println("Introduce un numero:");
-        int n1 = scanner.nextInt();
-
-        if (n1 % 2 == 0) {
-            System.out.println("Es un numero par");
+        int numero1 = scanner.nextInt();
+        //Introduzco un dato
+        if (numero1 % 2 == 0){
+            System.out.println("El numero es par");
         } else {
-            System.out.println("Es un numero impar");
+            System.out.println("Es  impar");
         }
+        //Compruebo el resto del numero si es 0 es par si no impar
     }
 }
+
