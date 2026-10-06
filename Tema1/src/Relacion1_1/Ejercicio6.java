@@ -1,12 +1,13 @@
 package Relacion1_1;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio6 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un caracter");
-        char caracter = scanner.nextLine().charAt(0);
+        char caracter = scanner.next().toUpperCase(Locale.ROOT).charAt(0);
     //Creo un scanner y leo un char
         switch (caracter){
             case 'A':
