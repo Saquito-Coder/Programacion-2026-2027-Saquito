@@ -34,7 +34,5 @@ public class Ejercicio10 {
                 System.out.println("Has introducido un operador incoreecto");
                 break;
         }
-
-
     }
 }
