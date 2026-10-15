@@ -11,6 +11,7 @@ public class Ejercicio8 {
         char respuesta;
         int menor = 0;
         boolean primerNumero = true;
+        //Creo variables
         do {
             System.out.println("Introduce un número:");
             int numero = scanner.nextInt();
@@ -18,6 +19,7 @@ public class Ejercicio8 {
                 menor = numero;
                 primerNumero = false;
             }
+            //Compruebo si el numero es menor que los anteriores
             do {
                 System.out.println("¿Desea introducir más números (S/N)?");
                 respuesta = scanner.next().toUpperCase(Locale.ROOT).charAt(0);
@@ -26,6 +28,7 @@ public class Ejercicio8 {
                     System.out.println("Introduce S o N.");
                 }
             } while (!esValido);
+            //Compruebo si el usuario quiere seguir metiendo numeros con S/N
             if (respuesta == 'N') {
                 finBucle = true;
             }

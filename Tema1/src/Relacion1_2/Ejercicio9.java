@@ -15,6 +15,7 @@ public class Ejercicio9 {
                 esValido = true;
             }else System.out.println("Has introducido un numero negativo");
         }while (!esValido);
+        //Pido un numero en un rango q tenga que ser al menos de 1
         for (int i = 1; i < numero; i++) {
             if (numero % i == 0) {
                 suma += i;
@@ -23,5 +24,6 @@ public class Ejercicio9 {
         if (suma == numero){
             System.out.printf("El numero %d es perfecto",numero);
         }else System.out.printf("El numero %d no es perfecto",numero);
+        //Calculo mediante los divisores de "numero" la "suma" y si es igual a "numero"
     }
 }
