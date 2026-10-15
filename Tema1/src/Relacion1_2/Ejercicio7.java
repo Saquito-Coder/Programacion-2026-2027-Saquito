@@ -7,14 +7,18 @@ public class Ejercicio7 {
         Scanner scanner = new Scanner(System.in);
         int numeros = 0;
         int suma = 0;
-        System.out.println("¿Cuantos numeros quieres introducir?");
-        int vueltas = scanner.nextInt();
+        int vueltas;
+        do {
+            System.out.println("Dime cuantos numeros calcular");
+            vueltas = scanner.nextInt();
+        }while (vueltas <= 0);
+
         for (int i = 0; i < vueltas; i++) {
             System.out.println("Introduce un numero");
             numeros = scanner.nextInt();
             suma += numeros;
         }
-        int media = suma / vueltas;
+        int media =  suma / vueltas;
         System.out.printf("La media es %d",media);
     }
 }
