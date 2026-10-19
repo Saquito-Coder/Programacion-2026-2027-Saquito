@@ -9,7 +9,7 @@ public class Ejercicio10 {
         do {
             System.out.println("Di un numero y te calculo su factorial");
             numero = scanner.nextInt();
-        } while (numero < 0);
+        } while (numero < -1);
         int factorial = 1;
         for (int i = 1; i <= numero; i++) {
             factorial *= i;
@@ -17,3 +17,4 @@ public class Ejercicio10 {
         System.out.printf("El factorial de %d es %d",numero,factorial);
     }
 }
+

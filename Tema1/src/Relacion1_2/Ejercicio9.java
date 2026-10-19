@@ -11,7 +11,7 @@ public class Ejercicio9 {
         do {
             System.out.println("Introduce un numero (ESTRICO POSITIVO)");
             numero = scanner.nextInt();
-            if (numero > 0){
+            if (numero > 1){
                 esValido = true;
             }else System.out.println("Has introducido un numero negativo");
         }while (!esValido);
